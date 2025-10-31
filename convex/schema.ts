@@ -1,8 +1,6 @@
 import { defineSchema, defineTable } from "convex/server";
 import { v } from "convex/values";
 
-// DO NOT TOUCH EDIT THE TABLE ROWS DIRECTLY IN CONVEX DASHBOARD
-
 export default defineSchema({
   // --- USERS (mirrors Clerk users) ---
   Users: defineTable({

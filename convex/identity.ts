@@ -6,7 +6,6 @@ export const current = query({
     const identity = await ctx.auth.getUserIdentity();
     if (!identity) return null;
 
-    // Convex automatically decodes all the JWT claims for you
     return identity;
   },
 });
