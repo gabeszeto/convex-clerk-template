@@ -12,14 +12,20 @@ with working **multi-tenant authentication**, **organization syncing**, and a **
 
 ✅ Clerk authentication (Users + Organizations)  
 ✅ Convex realtime backend with full typing  
-✅ Automatic Clerk → Convex sync via webhook 
+✅ Automatic Clerk → Convex sync via webhook  
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start (Summary)
+
+1️⃣ Clone the repo  
+2️⃣ Set up Convex + Clerk  
+3️⃣ Add your environment variables  
+4️⃣ Run the app  
 
 ```bash
 git clone https://github.com/gabeszeto/convex-clerk-template.git
 cd convex-clerk-template
 npm install
-npm run dev
+```
+➡️ **[Full Getting Started Guide](./docs/getting-started.md)**
